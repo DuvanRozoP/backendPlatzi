@@ -6,7 +6,7 @@ const { logErrors, errorHandler, boomErrorHandler} = require('./middlewares/erro
 const app = express();
 const port = 3000;
 
-app.use(express.json());
+app.use(express.json())
 
 
 const whilelist = ['http://localhost:5500','http://localhost:8080','https://mayapp.co','http://127.0.0.1:5500']
